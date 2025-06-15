@@ -1,0 +1,78 @@
+{
+  // General appearance settings
+  "icon_theme": "Base Charmed Icons",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": "Catppuccin Espresso (Blur)",
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_line_height": "standard",
+  "relative_line_numbers": true, // Editor behavior setting included here for relevance
+
+  // Settings related to the integrated AI agent
+  "agent": {
+    "model_parameters": [],
+    "default_model": {
+      "provider": "google",
+      "model": "gemini-2.5-flash-preview-04-17"
+    },
+    "version": "2"
+  },
+
+  // General editor behavior settings
+  "vim_mode": true,
+  "restore_on_startup": "last_session",
+  "hide_mouse": "on_typing_and_movement",
+
+
+  // Panel and UI element visibility/behavior settings
+  "scrollbar": {
+    "show": "never"
+  },
+  "tab_bar": {
+    "show": false
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "project_panel": {
+    "button": false,
+    "dock": "right"
+  },
+  "outline_panel": {
+    "button": false
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "chat_panel": {
+    "button": "never"
+  },
+  "notification_panel": {
+    "button": false
+  },
+  "git_panel": {
+    "button": true,
+    "dock": "right"
+  },
+  "diagnostics": {
+    "button": false
+  },
+  "search": {
+    "button": false
+  },
+
+  // Code formatting settings and enabled code actions
+  "formatter": {
+    "code_actions": {
+      "source.fixAll.eslint": true,
+      "source.organizeImports": true
+    }
+  },
+
+  // Telemetry settings
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  }
+}
