@@ -6,16 +6,21 @@
   "theme": "Catppuccin Espresso (Blur)",
   "buffer_font_family": "JetBrains Mono",
   "buffer_line_height": "standard",
-  "relative_line_numbers": true, // Editor behavior setting included here for relevance
+  "relative_line_numbers": true,
 
   // Settings related to the integrated AI agent
   "agent": {
     "model_parameters": [],
     "default_model": {
-      "provider": "google",
-      "model": "gemini-2.5-flash-preview-04-17"
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4"
     },
     "version": "2"
+  },
+
+  // Feature flags
+  "features": {
+    "edit_prediction_provider": "none"
   },
 
   // General editor behavior settings
@@ -23,6 +28,9 @@
   "restore_on_startup": "last_session",
   "hide_mouse": "on_typing_and_movement",
 
+  // Set prettier as the default formatter globally
+  "formatter": "prettier",
+  "format_on_save": "on",
 
   // Panel and UI element visibility/behavior settings
   "scrollbar": {
@@ -62,12 +70,10 @@
     "button": false
   },
 
-  // Code formatting settings and enabled code actions
-  "formatter": {
-    "code_actions": {
-      "source.fixAll.eslint": true,
-      "source.organizeImports": true
-    }
+  // Code actions
+  "code_actions_on_format": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
   },
 
   // Telemetry settings
