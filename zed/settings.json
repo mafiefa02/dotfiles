@@ -1,0 +1,146 @@
+{
+  "agent": {
+    "default_model": {
+      "model": "claude-sonnet-4",
+      "provider": "zed.dev"
+    },
+    "model_parameters": [],
+    "version": "2"
+  },
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_size": 16,
+  "buffer_line_height": "standard",
+  "icon_theme": "Base Charmed Icons",
+  "relative_line_numbers": true,
+  "theme": "Fleet Dark",
+  "ui_font_size": 16,
+  "hide_mouse": "on_typing_and_movement",
+  "restore_on_startup": "last_session",
+  "vim_mode": true,
+  "code_actions_on_format": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "format_on_save": "on",
+  "formatter": "prettier",
+  "languages": {
+    "JSX": {
+      "code_actions_on_format": {
+        "source.fixAll.biome": true,
+        "source.organizeImports.biome": true
+      },
+      "formatter": {
+        "language_server": {
+          "name": "biome"
+        }
+      }
+    },
+    "JavaScript": {
+      "code_actions_on_format": {
+        "source.fixAll.biome": true,
+        "source.organizeImports.biome": true
+      },
+      "formatter": {
+        "language_server": {
+          "name": "biome"
+        }
+      }
+    },
+    "TSX": {
+      "code_actions_on_format": {
+        "source.fixAll.biome": true,
+        "source.organizeImports.biome": true
+      },
+      "formatter": {
+        "language_server": {
+          "name": "biome"
+        }
+      }
+    },
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.fixAll.biome": true,
+        "source.organizeImports.biome": true
+      },
+      "formatter": {
+        "language_server": {
+          "name": "biome"
+        }
+      }
+    },
+    "Vue.js": {
+      "code_actions_on_format": {
+        "source.fixAll.biome": true,
+        "source.organizeImports.biome": true
+      },
+      "formatter": {
+        "language_server": {
+          "name": "biome"
+        }
+      }
+    }
+  },
+  "lsp": {
+    "biome": {
+      "settings": {
+        "require_config_file": true
+      }
+    }
+  },
+  "chat_panel": {
+    "button": "never"
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "diagnostics": {
+    "button": false
+  },
+  "git_panel": {
+    "button": true,
+    "dock": "right"
+  },
+  "notification_panel": {
+    "button": false
+  },
+  "outline_panel": {
+    "button": false
+  },
+  "project_panel": {
+    "button": false,
+    "dock": "right"
+  },
+  "scrollbar": {
+    "show": "never"
+  },
+  "search": {
+    "button": false
+  },
+  "tab_bar": {
+    "show": false
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "features": {
+    "edit_prediction_provider": "none"
+  },
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/.jj",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/.classpath",
+    "**/.settings",
+    "**/node_modules",
+    "**/.next"
+  ],
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  }
+}
